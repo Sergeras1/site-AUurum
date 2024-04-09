@@ -1,0 +1,90 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>AUrum</title>
+    <link href="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\AUrum_decor.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\imeges\logotip.png" />
+</head>
+<body>
+
+    <div style="border-radius: 25px;" class="radius">
+
+        <div class="images">
+            <font size="2" face="Tahoma">
+                <a href="https://www.google.ru" class=key>Выдача ключей</a>
+            </font>
+            <font size="2" face="Tahoma">
+                <a href="https://www.google.ru" class=investor>Инвесторам</a>
+            </font>
+            <font size="2" face="Tahoma">
+                <a href="https://www.google.ru" class=inhabitant>Для жителей</a>
+            </font>
+            <font size="2" face="Tahoma">
+                <a href="https://www.google.ru" class=komer>Коммерческая недвижемость</a>
+            </font>
+            <hr class="line" align="left" width="1150" size="1" color="#b3b3b3" />
+            <br />
+            <img src="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\imeges\logotip.png" width="128" height="128">
+            <font size="5" face="Tahoma">
+                <a href="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\ex5.html" class=ex5>О нас</a>
+            </font>
+            <font size="5" face="Tahoma">
+                <a href="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\kvartira.html" class=apartment>Квартиры</a>
+            </font>
+            <font size="5" face="Tahoma">
+                <a href="https://www.google.ru" class=house>Дома</a>
+            </font>
+            <font size="5" face="Tahoma">
+                <a href="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\bank.html" class=mortgage>Ипотека</a>
+            </font>
+            <font size="5" face="Tahoma">
+                <a href="https://www.google.ru" class=project>Проекты</a>
+            </font>
+            <font size="5" face="Tahoma">
+                <a href="https://www.google.ru" class=servis>Сервисы</a>
+            </font>
+            <font size="5" face="Tahoma">
+                <a id="voiti" href="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\registr.html" class=vhod>Войти</a>
+            </font>
+            <font class="project_2" size="6" face="Tahoma"> Наши проекты </font>
+        </div>
+        <a href="https://www.google.ru" class="chelybinsk_2"><img src="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\imeges\chelybinsk.jpg" alt="" class="chelybinsk" /></a>
+        <a href="https://www.google.ru" class="graf_2"><img src="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\imeges\graf.jpg" alt="" class="graf" /></a>
+        <a href="https://www.google.ru" class="simvol_2"><img src="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\imeges\simvol.jpg" alt="" class="simvol" /></a>
+        <a href="https://www.google.ru" class="start_2"><img src="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\imeges\start.jpeg" alt="" class="start" /></a>
+        <a href="https://www.google.ru" class="megapolis_2"><img src="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\imeges\megapolis.jpg" alt="" class="megapolis" /></a>
+        <a href="https://www.google.ru" class="bash_2"><img src="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\imeges\bash.jpg" alt="" class="bash" /></a>
+
+    </div>
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides">
+            <a href="https://www.google.ru" class="moskay_2"><img src="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\imeges\moskva.jpg" alt="" class="moskay" /></a>
+        </div>
+
+        <div class="mySlides">
+            <a href="https://www.google.ru" class="moskay_2"><img src="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\imeges\img1.jpg" alt="" class="moskay" /></a>
+        </div>
+
+    </div>
+    <script>
+
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 4000); // Change image every 2 seconds
+
+        }
+    </script>
+    
+</body>
+</html>

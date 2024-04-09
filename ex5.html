@@ -1,0 +1,61 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Расчет ипотеки</title>
+    <link href="C:\Users\sergey\Documents\new_papka\Visual_Studio_Projects\AUrum\ex5.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container" id="container">
+        <!-- Контейнеры будут добавлены с помощью JavaScript -->
+    </div>
+    <script>
+        const container = document.getElementById('container');
+
+        const facts = [
+            'Компания была основана в 2011 году Екатеринбурге Евгением Анаталивичем Пушным',
+            '«AUrum» — лидер строительной отрасли России и ведущий разработчик ИТ-решений в недвижимости.',
+            'AUrum самая быстрорастущая публичная компания в России по итогам 2023 года и одна из крупнейших федеральных корпораций в сфере proptech и девелопмента. ',
+            'В периметре группы развиваются следующие бизнес-направления: онлайн-платформа сервисов с недвижимостью «AUrum-Bank», управляющая компания, фонды коммерческой и арендной недвижимости, девелопмент проектов во всех сегментах по всей России, ИЖС, курортная недвижимость и другие ',
+            'На конец 2023 года внешняя оценка активов достигла 761,0 млрд руб., включая земельный банк объемом 45,9 млн м реализуемой площади и бренд стоимостью 40,2 млрд руб.',
+            'AUrum входит в число системообразующих организаций российской экономики и занимает 1-е место в Московском регионе по объемам текущего строительства и 2-е место в России. ',
+            'AUrum имеет представительства в более чем 100 городах России и стран СНГ и штат около 5 000 сотрудников.',
+            'Миссия компании — создавать новое качество жизни в современных городских кварталах и сохранять людям самый ценный ресурс — время.',
+            'Мы строим каждый желищный комплекс под ключ качественно и с любовью.',
+            'Даем вечную гарантию и готовы ответить на любые вопросы благодаря нашей тех. поддержки'
+        ];
+
+        window.addEventListener('scroll', reveal);
+
+        function reveal() {
+            const windowHeight = window.innerHeight;
+            const scrollY = window.scrollY;
+
+            const boxes = document.querySelectorAll('.box');
+            boxes.forEach((box, index) => {
+                const boxTop = box.getBoundingClientRect().top;
+                if (boxTop < windowHeight / 1.3) {
+                    box.style.opacity = '1';
+                    box.style.transform = 'translateX(0)';
+                    box.innerHTML = `<p>${facts[index]}</p>`;
+                } else {
+                    box.style.opacity = '0';
+                    box.style.transform = 'translateX(-200%)'; /* Возврат контейнера за пределы экрана */
+                    box.innerHTML = '';
+                }
+            });
+        }
+
+        function createBoxes() {
+            for (let i = 0; i < 10; i++) {
+                const box = document.createElement('div');
+                box.classList.add('box');
+                container.appendChild(box);
+            }
+        }
+
+        createBoxes();
+        reveal(); // Вызываем функцию reveal один раз при загрузке страницы, чтобы показать контейнеры, которые видны сразу
+
+    </script>
+</body>
+
+</html>

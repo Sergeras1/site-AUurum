@@ -1,0 +1,350 @@
+body {
+    max-width: 1%
+}
+
+.radius {
+    background: radial-gradient(circle,#007DFF, #007bfb ); /* Цвет фона */
+    border: 5px solid transparent; /* Параметры рамки */
+    padding: 60px; /* Поля вокруг текста */
+    width: 1519px; /* Задаем ширину рамки */
+    height: 25px; /* Задаем высоту рамки */
+    position: absolute; /* Задаем абсолютное позиционирование */
+    top: -20px; /* Расположение сверху */
+    left: 0px; /* Расположение слева */
+}
+
+.images {
+    position: absolute; /* Задаем абсолютное позиционирование */
+    top: -50px; /* Расположение сверху */
+    left: 30px; /* Расположение слева */
+}
+
+a {
+    color: #211e18;
+    text-decoration: none;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+    a:hover {
+        color: #d5ba77;
+        text-decoration: none;
+        border-bottom: 1px solid #b3b3b300;
+    }
+
+.ex5 {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    top: -15px;
+    left: 20px;
+}
+
+.apartment {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    top: -15px;
+    left: 180px;
+}
+
+.house {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    top: -15px;
+    left: 260px;
+}
+
+.mortgage {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    top: -15px;
+    left: 340px;
+}
+
+.project {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    top: -15px;
+    left: 420px;
+}
+
+.servis {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    top: -15px;
+    left: 500px;
+}
+
+.vhod {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    top: -15px;
+    left: 660px;
+}
+
+.line {
+    position: relative;
+    top: 65px;
+    left: 155px;
+}
+
+.key {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    top: 70px;
+    left: 160px;
+}
+
+.investor {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    top: 70px;
+    left: 170px;
+}
+
+.inhabitant {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    top: 70px;
+    left: 180px;
+}
+
+.komer {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    top: 70px;
+    left: 190px;
+}
+
+.moskay {
+    height: 500px;
+    width: 1430px;
+    border-radius: 15px;
+    position: relative;
+    top: 200px;
+    left: 40px;
+    transition: 1s; /* Время эффекта */
+}
+
+    .moskay:hover {
+        transform: scale(1.03); /* Увеличиваем масштаб */
+    }
+
+.moskay_2 {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.chelybinsk {
+    height: 240px;
+    width: 426px;
+    border-radius: 15px;
+    position: relative;
+    top: 700px;
+    left: -10px;
+    transition: 1s; /* Время эффекта */
+}
+
+    .chelybinsk:hover {
+        transform: scale(1.03); /* Увеличиваем масштаб */
+    }
+
+.chelybinsk_2 {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.graf {
+    height: 240px;
+    width: 426px;
+    border-radius: 15px;
+    position: relative;
+    top: 700px;
+    left: 60px;
+    transition: 1s; /* Время эффекта */
+}
+
+    .graf:hover {
+        transform: scale(1.03); /* Увеличиваем масштаб */
+    }
+
+.graf_2 {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.simvol {
+    height: 240px;
+    width: 426px;
+    border-radius: 15px;
+    position: relative;
+    top: 700px;
+    left: 130px;
+    transition: 1s; /* Время эффекта */
+}
+
+    .simvol:hover {
+        transform: scale(1.03); /* Увеличиваем масштаб */
+    }
+
+.simvol_2 {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.start {
+    height: 240px;
+    width: 426px;
+    border-radius: 15px;
+    position: relative;
+    top: 720px;
+    left: -10px;
+    transition: 1s; /* Время эффекта */
+}
+
+    .start:hover {
+        transform: scale(1.03); /* Увеличиваем масштаб */
+    }
+
+.start_2 {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.megapolis {
+    height: 240px;
+    width: 426px;
+    border-radius: 15px;
+    position: relative;
+    top: 720px;
+    left: 60px;
+    transition: 1s; /* Время эффекта */
+}
+
+    .megapolis:hover {
+        transform: scale(1.03); /* Увеличиваем масштаб */
+    }
+
+.megapolis_2 {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.bash {
+    height: 240px;
+    width: 426px;
+    border-radius: 15px;
+    position: relative;
+    top: 720px;
+    left: 130px;
+    transition: 1s; /* Время эффекта */
+}
+
+    .bash:hover {
+        transform: scale(1.03); /* Увеличиваем масштаб */
+    }
+
+.bash_2 {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.project_2 {
+    position: relative;
+    top: 50px;
+    left: -735px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+footer {
+    background: radial-gradient(circle,#007DFF, #007bfb );
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

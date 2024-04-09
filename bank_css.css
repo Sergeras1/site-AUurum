@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: radial-gradient(circle,#007DFF, #007bfb );
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background: radial-gradient(circle,#007DFF, #007bfb );
+    color: white;
+    padding: 10px;
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    nav li {
+        display: inline;
+        margin: 10px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.active-button {
+    background: radial-gradient(circle,#007DFF, #007bfb );
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 200px; 
+    height: 40px;
+    
+   
+}
+
+    .active-button:hover {
+        background-color: #001f4d;
+    }
+
+footer {
+    background: radial-gradient(circle,#007DFF, #007bfb );
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
